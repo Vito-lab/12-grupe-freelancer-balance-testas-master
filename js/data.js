@@ -2,15 +2,17 @@ const account = [
     { month: 10, income: 150 },
     { month: 1, income: 200, expense: 50 },
     { month: 3, income: 450, expense: 200 },
-    { month: 7, expense: 50 },
-    { month: 2, income: 50 },
+    { month: 7, expense: 50 },liepa
+    { month: 2, income: 50 },vasaris
     { month: 5, income: 150, expense: 50 },
     { month: 9, income: 700, expense: 400 },
     { month: 4, income: 10, expense: 300 },
-    { month: 6, expense: 50 },
+    { month: 6, expense: 50 },birželis
     { month: 11, income: 150, expense: 30 },
     { month: 8, income: 450, expense: 120 },
     { month: 12, expense: 200 }
 ];
 
-const months = ['Sausis', 'Vasaris', 'Kovas'];
+const months = ['Sausis', 'Vasaris', 'Kovas', 'Balandis', 'Gegužė', 'Birželis', 'Liepa', 'Rugpjūtis', 'Rugsėjis', 'Spalis', 'Lapkritis', 'Gruodis'];
+
+console.log(account[1] + account[4] + account[2]+ account[7]+ account[5]+ account[8]+ account[3]+ account[10]+ account[6]+ account[0]+ account[9]+ account[11]);
